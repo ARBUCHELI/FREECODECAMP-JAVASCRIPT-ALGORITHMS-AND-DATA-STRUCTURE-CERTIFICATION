@@ -58,5 +58,35 @@ function sumAll(arr) {
 
 sumAll([1, 4]);
 ```
+
+## Intermediate Algorithm Scripting: Diff Two Arrays
+
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+
+## Note
+You can return the array with its elements in any order.
+
+```html
+function diffArray(arr1, arr2) {
+  var newArr = [];
+
+  function onlyInone(firstarr, secondarr) {
+    // Looping through an array to find elements that don't exist in another array
+    for (var i = 0; i < firstarr.length; i++) {
+      if (secondarr.indexOf(firstarr[i]) === -1) {
+        // Pushing the elements unique to first to newArr
+        newArr.push(firstarr[i]);
+      }
+    }
+  }
+
+  onlyInone(arr1, arr2);
+  onlyInone(arr2, arr1);
+
+  return newArr;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+```
                             
                             
