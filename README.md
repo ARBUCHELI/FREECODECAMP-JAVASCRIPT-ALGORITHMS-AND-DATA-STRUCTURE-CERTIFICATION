@@ -1,0 +1,7 @@
+# JAVASCRIPT-ALGORITHMS-AND-DATA-STRUCTURE-CERTIFICATION
+
+## Solution to the problems of the JavaScript Algorithms and Data Structures Certifications of www.freecodecamp.org
+
+## JAVASCRIPT - ALGORITHMS AND DATA STRUCTURE CERTIFICATION 
+
+## INTERMEDIATE ALGORITHMS AND DATA STRUCTURE CERTIFICATION
