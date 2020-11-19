@@ -6,7 +6,7 @@
 
 ## ES6
 
-# ES6: Use Destructuring Assignment to Assign Variables from Arrays
+## ES6: Use Destructuring Assignment to Assign Variables from Arrays
 
 ES6 makes destructuring arrays as easy as destructuring objects.
 
