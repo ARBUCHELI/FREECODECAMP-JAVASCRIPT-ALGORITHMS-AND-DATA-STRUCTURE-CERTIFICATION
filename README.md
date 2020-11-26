@@ -63,6 +63,46 @@ function removeFirstTwo(list) {
 const arr = removeFirstTwo(source);
 ```
 
+## ES6: Use Destructuring Assignment to Pass an Object as a Function's Parameters
+
+In some cases, you can destructure the object in a function argument itself.
+
+Consider the code below:
+
+```html
+const profileUpdate = (profileData) => {
+  const { name, age, nationality, location } = profileData;
+  // do something with these variables
+}
+```
+
+This effectively destructures the object sent into the function. This can also be done in-place:
+
+```html
+const profileUpdate = ({ name, age, nationality, location }) => {
+  /* do something with these fields */
+}
+```
+When <code>profileData</code> is passed to the above function, the values are destructured from the function parameter for use within the function.
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
+Use destructuring assignment within the argument to the function <code>half</code> to send only <code>max</code> and <code>min</code> inside the function.
+
+```html
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+
+// Only change code below this line
+const half = ({max,min}) => (max + min) / 2.0; 
+// Only change code above this line
+```
 
 # INTERMEDIATE ALGORITHM SCRIPTING
 
