@@ -28,7 +28,34 @@ Do NOT reset <code>count</code> to 0 when value is 7, 8, or 9.
 Do NOT return an array.
 Do NOT include quotes (single or double) in the output.
 
+```html
+var count = 0;
+var apuesta = "";
 
+function cc(card) {
+  // Only change code below this line
+  if (card === 2 || card === 3 || card === 4 || card === 5 || card === 6){
+    count++;
+  }
+  else if (card === 7 || card === 8 || card === 9){
+    count = count;
+  }
+  else {
+    count--;
+  }
+  if (count <= 0){
+    apuesta = "Hold";
+  }
+  if (count > 0){
+    apuesta = "Bet";
+  }
+
+  return count+" "+apuesta;
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+```
 
 # ES6
 
