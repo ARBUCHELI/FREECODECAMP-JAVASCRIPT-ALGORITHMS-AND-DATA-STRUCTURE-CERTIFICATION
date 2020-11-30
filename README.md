@@ -317,4 +317,14 @@ function whatIsInAName(collection, source) {
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
+## Intermediate Algorithm Scripting: Spinal Tap Case
 
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+```html
+function spinalCase(str) {
+  return str.split(/\s|_|(?=[A-Z])/).join("-").toLowerCase();
+}
+
+spinalCase('This Is Spinal Tap');
+```
