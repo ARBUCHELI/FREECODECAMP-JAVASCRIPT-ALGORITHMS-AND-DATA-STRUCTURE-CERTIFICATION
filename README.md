@@ -215,6 +215,39 @@ function makeList(arr) {
 const failuresList = makeList(result.failure);
 ```
 
+## ES6: Write Concise Object Literal Declarations Using Object Property Shorthand
+
+ES6 adds some nice support for easily defining object literals.
+
+Consider the following code:
+
+```html
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y
+});
+```
+<code>getMousePosition</code> is a simple function that returns an object containing two properties. ES6 provides the syntactic sugar to eliminate the redundancy of having to write <code>x: x</code>. You can simply write <code>x</code> once, and it will be converted to <code>x: x</code> (or something equivalent) under the hood. Here is the same function from above rewritten to use this new syntax:
+
+```html
+const getMousePosition = (x, y) => ({ x, y });
+```
+_________________________________________________________________________________________________________________________________________________________________________________
+
+Use object property shorthand with object literals to create and return an object with <code>name</code>, <code>age</code> and <code>gender</code> properties.
+
+```html
+const createPerson = (name, age, gender) => ({
+  // Only change code below this line
+  
+    name,
+    age,
+    gender
+  
+  // Only change code above this line
+});
+```
+
 # INTERMEDIATE ALGORITHM SCRIPTING
 
 ## Intermediate Algorithm Scripting: Sum All Numbers in a RangePassed
