@@ -248,6 +248,46 @@ const createPerson = (name, age, gender) => ({
 });
 ```
 
+## ES6: Write Concise Declarative Functions with ES6
+
+When defining functions within objects in ES5, we have to use the keyword <code>function</code> as follows:
+
+```html
+const person = {
+  name: "Taylor",
+  sayHello: function() {
+    return `Hello! My name is ${this.name}.`;
+  }
+};
+```
+With ES6, You can remove the <code>function</code> keyword and colon altogether when defining functions in objects. Here's an example of this syntax:
+
+```html
+const person = {
+  name: "Taylor",
+  sayHello() {
+    return `Hello! My name is ${this.name}.`;
+  }
+};
+```
+_________________________________________________________________________________________________________________________________________________________________________________
+
+Refactor the function <code>setGear</code> inside the object code><bicycle</code> to use the shorthand syntax described above.
+
+```html
+
+// Only change code below this line
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  }
+};
+// Only change code above this line
+bicycle.setGear(3);
+console.log(bicycle.gear);
+```
+
 # INTERMEDIATE ALGORITHM SCRIPTING
 
 ## Intermediate Algorithm Scripting: Sum All Numbers in a RangePassed
