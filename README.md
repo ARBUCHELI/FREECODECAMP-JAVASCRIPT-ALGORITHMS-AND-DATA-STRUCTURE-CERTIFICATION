@@ -287,6 +287,58 @@ const bicycle = {
 bicycle.setGear(3);
 console.log(bicycle.gear);
 ```
+## ES6: Use class Syntax to Define a Constructor Function
+
+ES6 provides a new syntax to create objects, using the <code>class</code> keyword.
+
+It should be noted that the <code>class</code> syntax is just syntax, and not a full-fledged class-based implementation of an object-oriented paradigm, unlike in languages such
+as Java, Python, Ruby, etc.
+
+In ES5, we usually define a constructor function and use the <code>new</code> keyword to instantiate an object.
+
+```html
+var SpaceShuttle = function(targetPlanet){
+  this.targetPlanet = targetPlanet;
+}
+var zeus = new SpaceShuttle('Jupiter');
+```
+
+The <code>class</code> syntax simply replaces the constructor function creation:
+
+```html
+class SpaceShuttle {
+  constructor(targetPlanet) {
+    this.targetPlanet = targetPlanet;
+  }
+}
+const zeus = new SpaceShuttle('Jupiter');
+```
+
+It should be noted that the <code>class</code> keyword declares a new function, to which a constructor is added. This constructor is invoked when <code>new</code> is called to create a new object.
+
+## Notes:
+
+UpperCamelCase should be used by convention for ES6 class names, as in <code>SpaceShuttle</code> used above.
+The constructor method is a special method for creating and initializing an object created with a class. You will learn more about it in the Object Oriented Programming section of the JavaScript Algorithms And Data Structures Certification.
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
+Use the <code>class</code> keyword and write a constructor to create the <code>Vegetable</code> class.
+
+The <code>Vegetable</code> class allows you to create a vegetable object with a property <code>name</code> that gets passed to the constructor.
+
+```html
+// Only change code below this line
+class Vegetable {
+    constructor(name) {
+        this.name = name;
+    }
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
+```
 
 # INTERMEDIATE ALGORITHM SCRIPTING
 
