@@ -99,12 +99,15 @@ var b;
 b = a;
 
 
-# Basic JavaScript: Initializing Variables with the Assignment Operator
+# 5. Basic JavaScript: Initializing Variables with the Assignment Operator
 It is common to initialize a variable to an initial value in the same line as it is declared.
+
 var myVar = 0;
+
 Creates a new variable called myVar and assigns it an initial value of 0.
 ________________________________________
 Define a variable a with var and initialize it to a value of 9.
+
 var a = 9;
 
 # Basic JavaScript: Understanding Uninitialized Variables
