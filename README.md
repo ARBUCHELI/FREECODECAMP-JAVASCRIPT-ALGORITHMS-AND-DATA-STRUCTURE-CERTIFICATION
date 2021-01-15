@@ -174,14 +174,19 @@ properCamelCase = "A String";
 
 titleCaseOver = 9000;
 
-# Basic JavaScript: Add Two Numbers with JavaScript
+# 8. Basic JavaScript: Add Two Numbers with JavaScript
 Number is a data type in JavaScript which represents numeric data.
+
 Now let's try to add two numbers using JavaScript.
+
 JavaScript uses the + symbol as an addition operator when placed between two numbers.
-Example:
+
+<strong>Example:</strong>
+
 myVar = 5 + 10; // assigned 15
 ________________________________________
 Change the 0 so that sum will equal 20.
+
 var sum = 10 + 10;
 
 # Basic JavaScript: Subtract One Number from Another with JavaScript
