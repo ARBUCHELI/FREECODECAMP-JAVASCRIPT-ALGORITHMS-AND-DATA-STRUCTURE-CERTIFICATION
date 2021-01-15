@@ -61,13 +61,16 @@ myVar = 5;
 First, this code creates a variable named myVar. Then, the code assigns 5 to myVar. Now, if myVar appears again in the code, the program will treat it as if it is 5.
 ________________________________________
 Assign the value 7 to variable a.
+
 // Setup
+
 var a;
 
 // Only change code below this line
+
 a = 7;
 
-# Basic JavaScript: Assigning the Value of One Variable to Another
+# 4. Basic JavaScript: Assigning the Value of One Variable to Another
 After a value is assigned to a variable using the assignment operator, you can assign the value of that variable to another variable using the assignment operator.
 var myVar;
 myVar = 5;
