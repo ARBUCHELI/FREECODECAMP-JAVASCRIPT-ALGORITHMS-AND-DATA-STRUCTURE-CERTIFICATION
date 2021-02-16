@@ -197,7 +197,7 @@ Change the 0 so that sum will equal 20.
 
 var sum = 10 + 10;
 
-# Basic JavaScript: Subtract One Number from Another with JavaScript
+# 9. Basic JavaScript: Subtract One Number from Another with JavaScript
 We can also subtract one number from another.
 JavaScript uses the - symbol for subtraction.
 Example
@@ -207,7 +207,7 @@ Change the 0 so the difference is 12.
 
 var difference = 45 - 33;
 
-# Basic JavaScript: Multiply Two Numbers with JavaScript
+# 10. Basic JavaScript: Multiply Two Numbers with JavaScript
 We can also multiply one number by another.
 JavaScript uses the * symbol for multiplication of two numbers.
 Example
@@ -216,7 +216,7 @@ ________________________________________
 Change the 0 so that product will equal 80
 var product = 8 * 10;
 
-# Basic JavaScript: Divide One Number by Another with JavaScript
+# 11. Basic JavaScript: Divide One Number by Another with JavaScript
 We can also divide one number by another.
 JavaScript uses the / symbol for division.
 Example
@@ -225,7 +225,7 @@ ________________________________________
 Change the 0 so that the quotient is equal to 2.
 var quotient = 66 / 33;
 
-# Basic JavaScript: Increment a Number with JavaScript
+# 12. Basic JavaScript: Increment a Number with JavaScript
 You can easily increment or add one to a variable with the ++ operator.
 i++;
 is the equivalent of
@@ -239,7 +239,7 @@ var myVar = 87;
 // Only change code below this line
 myVar++;
 
-# Basic JavaScript: Decrement a Number with JavaScript
+# 13. Basic JavaScript: Decrement a Number with JavaScript
 You can easily decrement or decrease a variable by one with the -- operator.
 i--;
 is the equivalent of
@@ -254,7 +254,7 @@ var myVar = 11;
 // Only change code below this line
 myVar--;
 
-# Basic JavaScript: Create Decimal Numbers with JavaScript
+# 14. Basic JavaScript: Create Decimal Numbers with JavaScript
 We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
 Note
 Not all real numbers can accurately be represented in floating point. This can lead to rounding errors. Details Here.
@@ -266,7 +266,7 @@ var ourDecimal = 5.7;
 // Only change code below this line
 var myDecimal = 4.6;
 
-# Basic JavaScript: Multiply Two Decimals with JavaScript
+# 15. Basic JavaScript: Multiply Two Decimals with JavaScript
 In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 Let's multiply two decimals together to get their product.
 ________________________________________
@@ -274,13 +274,13 @@ Change the 0.0 so that product will equal 5.0.
 
 var product = 2.0 * 2.5;
 
-# Basic JavaScript: Divide One Decimal by Another with JavaScript
+# 16. Basic JavaScript: Divide One Decimal by Another with JavaScript
 Now let's divide one decimal by another.
 ________________________________________
 Change the 0.0 so that quotient will equal to 2.2.
 
 var quotient = 4.4 / 2.0; // Change this line
-# Basic JavaScript: Finding a Remainder in JavaScript
+# 17. Basic JavaScript: Finding a Remainder in JavaScript
 The remainder operator % gives the remainder of the division of two numbers.
 Example
 5 % 2 = 1 because
@@ -300,7 +300,7 @@ Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) 
 var remainder;
 remainder = 11%3;
 
-# Basic JavaScript: Compound Assignment With Augmented Addition
+# 18. Basic JavaScript: Compound Assignment With Augmented Addition
 In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 myVar = myVar + 5;
 to add 5 to myVar. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.
@@ -319,7 +319,7 @@ a += 12;
 b += 9;
 c += 7;
 
-# Basic JavaScript: Compound Assignment With Augmented Subtraction
+# 19. Basic JavaScript: Compound Assignment With Augmented Subtraction
 Like the += operator, -= subtracts a number from a variable.
 myVar = myVar - 5;
 will subtract 5 from myVar. This can be rewritten as:
@@ -335,7 +335,7 @@ a -= 6;
 b -= 15;
 c -= 1;
 
-# Basic JavaScript: Compound Assignment With Augmented Multiplication
+# 20. Basic JavaScript: Compound Assignment With Augmented Multiplication
 The *= operator multiplies a variable by a number.
 myVar = myVar * 5;
 will multiply myVar by 5. This can be rewritten as:
@@ -351,7 +351,7 @@ a *= 5;
 b *= 3;
 c *= 10;
 
-# Basic JavaScript: Compound Assignment With Augmented Division
+# 21. Basic JavaScript: Compound Assignment With Augmented Division
 The /= operator divides a variable by another number.
 myVar = myVar / 5;
 Will divide myVar by 5. This can be rewritten as:
@@ -367,7 +367,7 @@ a /= 12;
 b /= 4;
 c /= 11;
 
-# Basic JavaScript: Declare String Variables
+# 22. Basic JavaScript: Declare String Variables
 Previously we have used the code
 var myName = "your name";
 "your name" is called a string literal. It is a string because it is a series of zero or more characters enclosed in single or double quotes.
@@ -376,7 +376,7 @@ Create two new string variables: myFirstName and myLastName and assign them the 
 var myFirstName = "Andres";
 var myLastName = "Bucheli";
 
-# Basic JavaScript: Escaping Literal Quotes in Strings
+# 23. Basic JavaScript: Escaping Literal Quotes in Strings
 When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: " or ' inside of your string?
 In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
 var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
@@ -387,7 +387,7 @@ Use backslashes to assign a string to the myStr variable so that if you were to 
 I am a "double quoted" string inside "double quotes".
 var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 
-# Basic JavaScript: Quoting Strings with Single Quotes
+# 24. Basic JavaScript: Quoting Strings with Single Quotes
 String values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
 doubleQuoteStr = "This is a string"; 
 singleQuoteStr = 'This is also a string';
@@ -403,7 +403,7 @@ Change the provided string to a string with single quotes at the beginning and e
 Right now, the <a> tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
 var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
-# Basic JavaScript: Escape Sequences in Strings
+# 25. Basic JavaScript: Escape Sequences in Strings
 Quotes are not the only characters that can be escaped inside a string. There are two reasons to use escaping characters:
 1.	To allow you to use characters you may not otherwise be able to type out, such as a carriage return.
 2.	To allow you to represent multiple quotes in a string without JavaScript misinterpreting what you mean.
@@ -428,7 +428,7 @@ Here is the text with the escape sequences written out.
 FirstLinenewlinetabbackslashSecondLinenewlineThirdLine
 var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
 
-# Basic JavaScript: Concatenating Strings with Plus Operator
+# 26. Basic JavaScript: Concatenating Strings with Plus Operator
 In JavaScript, when the + operator is used with a String value, it is called the concatenation operator. You can build a new string out of other strings by concatenating them together.
 Example
 'My name is Alan,' + ' I concatenate.'
@@ -441,7 +441,7 @@ ________________________________________
 Build myStr from the strings "This is the start. " and "This is the end." using the + operator.
 var myStr ="This is the start. "+"This is the end."; // Change this line
 
-# Basic JavaScript: Concatenating Strings with the Plus Equals Operator
+# 27. Basic JavaScript: Concatenating Strings with the Plus Equals Operator
 We can also use the += operator to concatenate a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 Note
 Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
@@ -457,7 +457,7 @@ Build myStr over several lines by concatenating these two strings: "This is the 
 var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence."
 
-# Basic JavaScript: Constructing Strings with Variables
+# 28. Basic JavaScript: Constructing Strings with Variables
 Sometimes you will need to build a string, Mad Libs style. By using the concatenation operator (+), you can insert one or more variables into a string you're building.
 Example:
 var ourName = "freeCodeCamp";
@@ -469,7 +469,7 @@ Set myName to a string equal to your name and build myStr with myName between th
 var myName = "Andres";
 var myStr = "My name is "+myName+" and I am well!";
 
-# Basic JavaScript: Appending Variables to Strings
+# 29. Basic JavaScript: Appending Variables to Strings
 Just as we can build a string over multiple lines out of string literals, we can also append variables to a string using the plus equals (+=) operator.
 Example:
 var anAdjective = "awesome!";
@@ -485,7 +485,7 @@ var someAdjective = "really cool";
 var myStr = "Learning to code is ";
 myStr += someAdjective;
 
-# Basic JavaScript: Find the Length of a String
+# 30. Basic JavaScript: Find the Length of a String
 You can find the length of a String value by writing .length after the string variable or string literal.
 "Alan Peter".length; // 10
 For example, if we created a variable var firstName = "Charles", we could find out how long the string "Charles" is by using the firstName.length property.
@@ -500,7 +500,7 @@ var lastName = "Lovelace";
 
 lastNameLength = lastName.length;
 
-# Basic JavaScript: Use Bracket Notation to Find the First Character in a String
+# 31. Basic JavaScript: Use Bracket Notation to Find the First Character in a String
 Bracket notation is a way to get a character at a specific index within a string.
 Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
 For example, the character at index 0 in the word "Charles" is "C". So if var firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].
@@ -518,7 +518,7 @@ var lastName = "Lovelace";
 // Only change code below this line
 firstLetterOfLastName = lastName[0]; // Change this line
 
-# Basic JavaScript: Understand String Immutability
+# 32. Basic JavaScript: Understand String Immutability
 In JavaScript, String values are immutable, which means that they cannot be altered once created.
 For example, the following code:
 var myStr = "Bob";
@@ -535,7 +535,7 @@ var myStr = "Jello World";
 myStr = "Hello World"; // Change this line
 // Only change code above this line
 
-# Basic JavaScript: Use Bracket Notation to Find the Nth Character in a String
+# 33. Basic JavaScript: Use Bracket Notation to Find the Nth Character in a String
 You can also use bracket notation to get the character at other positions within a string.
 Remember that computers start counting at 0, so the first character is actually the zeroth character.
 Example:
@@ -550,7 +550,7 @@ var lastName = "Lovelace";
 // Only change code below this line
 var thirdLetterOfLastName = lastName[2]; // Change this line
 
-# Basic JavaScript: Use Bracket Notation to Find the Last Character in a String
+# 34. Basic JavaScript: Use Bracket Notation to Find the Last Character in a String
 In order to get the last letter of a string, you can subtract one from the string's length.
 For example, if var firstName = "Charles", you can get the value of the last letter of the string by using firstName[firstName.length - 1].
 Example:
@@ -565,7 +565,7 @@ var lastName = "Lovelace";
 // Only change code below this line
 var lastLetterOfLastName = lastName[lastName.length-1]; // Change this line
 
-# Basic JavaScript: Use Bracket Notation to Find the Nth-to-Last Character in a String
+# 35. Basic JavaScript: Use Bracket Notation to Find the Nth-to-Last Character in a String
 You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3]
 Example:
@@ -580,7 +580,7 @@ var lastName = "Lovelace";
 // Only change code below this line
 var secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this line
 
-# Basic JavaScript: Word Blanks
+# 36. Basic JavaScript: Word Blanks
 We will now use our knowledge of strings to build a "Mad Libs" style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence.
 In a "Mad Libs" game, you are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 Consider this sentence - "It was really ____, and we ____ ourselves ____". This sentence has three missing pieces- an adjective, a verb and an adverb, and we can add words of our choice to complete it. We can then assign the completed sentence to a variable as follows:
