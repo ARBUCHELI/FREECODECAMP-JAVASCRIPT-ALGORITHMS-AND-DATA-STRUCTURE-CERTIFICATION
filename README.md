@@ -598,7 +598,7 @@ var myAdverb = "quickly";
 var wordBlanks = "The "+myNoun+" was really "+myAdjective+" and I "+myVerb+" very "+myAdverb+" because it really wanted to bite me."; // Change this line
 // Only change code above this line
 
-# Basic JavaScript: Store Multiple Values in one Variable using JavaScript Arrays
+# 37. Basic JavaScript: Store Multiple Values in one Variable using JavaScript Arrays
 With JavaScript array variables, we can store several pieces of data in one place.
 You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this:
 var sandwich = ["peanut butter", "jelly", "bread"].
@@ -609,7 +609,7 @@ Refer to the example code in the text editor if you get stuck.
 // Only change code below this line
 var myArray = ['A',1];
 
-# Basic JavaScript: Nest one Array within Another Array
+# 38. Basic JavaScript: Nest one Array within Another Array
 You can also nest arrays within other arrays, like below:
 [["Bulls", 23], ["White Sox", 45]]
 This is also called a multi-dimensional array.
@@ -618,7 +618,7 @@ Create a nested array called myArray.
 // Only change code below this line
 var myArray = [[1,2],[3,4]];
 
-# Basic JavaScript: Access Array Data with Indexes
+# 39. Basic JavaScript: Access Array Data with Indexes
 We can access the data inside arrays using indexes.
 Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array. Like strings, arrays use zero-based indexing, so the first element in an array has an index of 0.
 
@@ -637,7 +637,7 @@ var myArray = [50,60,70];
 // Only change code below this line
 var myData = myArray[0];
 
-# Basic JavaScript: Modify Array Data With Indexes
+# 40. Basic JavaScript: Modify Array Data With Indexes
 Unlike strings, the entries of arrays are mutable and can be changed freely.
 Example
 var ourArray = [50,40,30];
@@ -652,7 +652,7 @@ var myArray = [18,64,99];
 // Only change code below this line
 myArray[0] = 45;
 
-# Basic JavaScript: Access Multi-Dimensional Arrays With Indexes
+# 41. Basic JavaScript: Access Multi-Dimensional Arrays With Indexes
 One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array, the first set of brackets refers to the entries in the outer-most (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 Example
 var arr = [
@@ -675,7 +675,7 @@ var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 // Only change code below this line
 var myData = myArray[2][1];
 
-# Basic JavaScript: Manipulate Arrays With push()
+# 42. Basic JavaScript: Manipulate Arrays With push()
 An easy way to append data to the end of an array is via the push() function.
 .push() takes one or more parameters and "pushes" them onto the end of the array.
 Examples:
@@ -694,7 +694,7 @@ var myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 myArray.push(["dog", 3]);
 
-# Basic JavaScript: Manipulate Arrays With pop()
+# 43. Basic JavaScript: Manipulate Arrays With pop()
 Another way to change the data in an array is with the .pop() function.
 .pop() is used to "pop" a value off of the end of an array. We can store this "popped off" value by assigning it to a variable. In other words, .pop() removes the last element from an array and returns that element.
 Any type of entry can be "popped" off of an array - numbers, strings, even nested arrays.
@@ -711,7 +711,7 @@ var myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 var removedFromMyArray = myArray.pop();
 
-# Basic JavaScript: Manipulate Arrays With shift()
+# 44. Basic JavaScript: Manipulate Arrays With shift()
 pop() always removes the last element of an array. What if you want to remove the first?
 That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
 Example:
@@ -726,7 +726,7 @@ var myArray = [["John", 23], ["dog", 3]];
 // Only change code below this line
 var removedFromMyArray = myArray.shift();
 
-# Basic JavaScript: Manipulate Arrays With unshift()
+# 45. Basic JavaScript: Manipulate Arrays With unshift()
 Not only can you shift elements off of the beginning of an array, you can also unshift elements to the beginning of an array i.e. add elements in front of the array.
 .unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
 Example:
@@ -743,7 +743,7 @@ myArray.shift();
 // Only change code below this line
 myArray.unshift(["Paul",35]);
 
-# Basic JavaScript: Shopping List
+# 46. Basic JavaScript: Shopping List
 Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
 The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
 ["Chocolate Bar", 15]
@@ -754,7 +754,7 @@ var myList = [["Coca Cola cans", 7],
             ["Mineral water bottles", 4],
             ["Apples", 4]
 ]
-# Basic JavaScript: Write Reusable JavaScript with Functions
+# 47. Basic JavaScript: Write Reusable JavaScript with Functions
 In JavaScript, we can divide up our code into reusable parts called functions.
 Here's an example of a function:
 function functionName() {
@@ -768,7 +768,7 @@ ________________________________________
 4.	    console.log("Hi World");
 5.	}
 6.	reusableFunction();
-# Basic JavaScript: Passing Values to Functions with Arguments
+# 48. Basic JavaScript: Passing Values to Functions with Arguments
 Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.
 Here is a function with two parameters, param1 and param2:
 function testFun(param1, param2) {
@@ -784,7 +784,7 @@ function functionWithArgs(param1, param2){
 }
 functionWithArgs(1,2);
 
-# Basic JavaScript: Global Scope and Functions
+# 49. Basic JavaScript: Global Scope and Functions
 In JavaScript, scope refers to the visibility of variables. Variables which are defined outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.
 Variables which are used without the var keyword are automatically created in the global scope. This can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with var.
 ________________________________________
@@ -812,7 +812,7 @@ function fun2() {
   console.log(output);
 }
 
-# Basic JavaScript: Local Scope and Functions
+# 50. Basic JavaScript: Local Scope and Functions
 Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.
 Here is a function myTest with a local variable called loc.
 function myTest() {
@@ -839,7 +839,7 @@ myLocalScope();
 // myVar is not defined outside of myLocalScope
 console.log('outside myLocalScope', myVar);
 
-# Basic JavaScript: Global vs. Local Scope in Functions
+# 51. Basic JavaScript: Global vs. Local Scope in Functions
 It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.
 In this example:
 var someVar = "Hat";
@@ -864,7 +864,7 @@ function myOutfit() {
 
 myOutfit();
 
-# Basic JavaScript: Return a Value from a Function with Return
+# 52. Basic JavaScript: Return a Value from a Function with Return
 We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
 Example
 function plusThree(num) {
@@ -879,7 +879,7 @@ function timesFive(num){
 }
 timesFive(2);
 
-# Basic JavaScript: Understanding Undefined Value returned from a Function
+# 53. Basic JavaScript: Understanding Undefined Value returned from a Function
 A function can include the return statement but it does not have to. In the case that the function doesn't have a return statement, when you call it, the function processes the inner code but the returned value is undefined.
 Example
 var sum = 0;
@@ -907,7 +907,7 @@ function addFive() {
 addThree();
 addFive();
 
-# Basic JavaScript: Assignment with a Returned Value
+# 54. Basic JavaScript: Assignment with a Returned Value
 If you'll recall from our discussion of Storing Values with the Assignment Operator, everything to the right of the equal sign is resolved before the value is assigned. This means we can take the return value of a function and assign it to a variable.
 Assume we have pre-defined a function sum which adds two numbers together, then:
 ourSum = sum(5, 12);
@@ -924,7 +924,7 @@ function processArg(num) {
 // Only change code below this line
 processed = processArg(7);
 
-# Basic JavaScript: Stand in Line
+# 55. Basic JavaScript: Stand in Line
 In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
 Add the number to the end of the array, then remove the first element of the array.
@@ -948,7 +948,7 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
-# Basic JavaScript: Understanding Boolean Values
+# 56. Basic JavaScript: Understanding Boolean Values
 Another data type is the Boolean. Booleans may only be one of two values: true or false. They are basically little on-off switches, where true is "on" and false is "off." These two states are mutually exclusive.
 Note
 Boolean values are never written with quotes. The strings "true" and "false" are not Boolean and have no special meaning in JavaScript.
@@ -963,7 +963,7 @@ function welcomeToBooleans() {
   // Only change code above this line
 }
 
-# Basic JavaScript: Use Conditional Logic with If Statements
+# 57. Basic JavaScript: Use Conditional Logic with If Statements
 If statements are used to make decisions in code. The keyword if tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as Boolean conditions and they may only be true or false.
 When the condition evaluates to true, the program executes the statement inside the curly braces. When the Boolean condition evaluates to false, the statement inside the curly braces will not execute.
 Pseudocode
