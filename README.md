@@ -993,7 +993,7 @@ function trueOrFalse(wasThatTrue) {
 
 }
 
-# Basic JavaScript: Comparison with the Equality Operator
+# 58. Basic JavaScript: Comparison with the Equality Operator
 There are many comparison operators in JavaScript. All of these operators return a boolean true or false value.
 The most basic operator is the equality operator ==. The equality operator compares two values and returns true if they're equivalent or false if they are not. Note that equality is different from assignment (=), which assigns the value on the right of the operator to a variable on the left.
 function equalityTest(myVal) {
@@ -1019,7 +1019,7 @@ function testEqual(val) {
 
 testEqual(10);
 
-# Basic JavaScript: Comparison with the Strict Equality Operator
+# 59. Basic JavaScript: Comparison with the Strict Equality Operator
 Strict equality (===) is the counterpart to the equality operator (==). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
 If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.
 Examples
@@ -1038,7 +1038,7 @@ function testStrict(val) {
 
 testStrict(10);
 
-# Basic JavaScript: Practice comparing different values
+# 60. Basic JavaScript: Practice comparing different values
 In the last two challenges, we learned about the equality operator (==) and the strict equality operator (===). Let's do a quick review and practice using these operators some more.
 If the values being compared are not of the same type, the equality operator will perform a type conversion, and then evaluate the values. However, the strict equality operator will compare both the data type and value as-is, without converting one type to the other.
 Examples
@@ -1060,7 +1060,7 @@ function compareEquality(a, b) {
 
 compareEquality(10, "10");
 
-# Basic JavaScript: Comparison with the Inequality Operator
+# 61. Basic JavaScript: Comparison with the Inequality Operator
 The inequality operator (!=) is the opposite of the equality operator. It means "Not Equal" and returns false where equality would return true and vice versa. Like the equality operator, the inequality operator will convert data types of values while comparing.
 Examples
 1 !=  2     // true
@@ -1080,7 +1080,7 @@ function testNotEqual(val) {
 
 testNotEqual(10);
 
-# Basic JavaScript: Comparison with the Strict Inequality Operator
+# 62. Basic JavaScript: Comparison with the Strict Inequality Operator
 The strict inequality operator (!==) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa. Strict inequality will not convert data types.
 Examples
 3 !==  3   // false
@@ -1098,7 +1098,7 @@ function testStrictNotEqual(val) {
 
 testStrictNotEqual(10);
 
-# Basic JavaScript: Comparison with the Greater Than Operator
+# 63. Basic JavaScript: Comparison with the Greater Than Operator
 The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns true. Otherwise, it returns false.
 Like the equality operator, greater than operator will convert data types of values while comparing.
 Examples
@@ -1122,7 +1122,7 @@ function testGreaterThan(val) {
 
 testGreaterThan(10);
 
-# Basic JavaScript: Comparison with the Greater Than Or Equal To Operator
+# 64. Basic JavaScript: Comparison with the Greater Than Or Equal To Operator
 The greater than or equal to operator (>=) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns true. Otherwise, it returns false.
 Like the equality operator, greater than or equal to operator will convert data types while comparing.
 Examples
@@ -1146,7 +1146,7 @@ function testGreaterOrEqual(val) {
 
 testGreaterOrEqual(10);
 
-# Basic JavaScript: Comparison with the Less Than Operator
+# 65. Basic JavaScript: Comparison with the Less Than Operator
 The less than operator (<) compares the values of two numbers. If the number to the left is less than the number to the right, it returns true. Otherwise, it returns false. Like the equality operator, less than operator converts data types while comparing.
 Examples
 2   < 5  // true
@@ -1170,7 +1170,7 @@ function testLessThan(val) {
 
 testLessThan(10);
 
-# Basic JavaScript: Comparison with the Less Than Or Equal To Operator
+# 66. Basic JavaScript: Comparison with the Less Than Or Equal To Operator
 The less than or equal to operator (<=) compares the values of two numbers. If the number to the left is less than or equal to the number to the right, it returns true. If the number on the left is greater than the number on the right, it returns false. Like the equality operator, less than or equal to converts data types.
 Examples
 4   <= 5  // true
@@ -1194,7 +1194,7 @@ function testLessOrEqual(val) {
 
 testLessOrEqual(10);
 
-# Basic JavaScript: Comparisons with the Logical And Operator
+# 67. Basic JavaScript: Comparisons with the Logical And Operator
 Sometimes you will need to test more than one thing at a time. The logical and operator (&&) returns true if and only if the operands to the left and right of it are true.
 The same effect could be achieved by nesting an if statement inside another if:
 if (num > 5) {
@@ -1223,7 +1223,7 @@ function testLogicalAnd(val) {
 
 testLogicalAnd(10);
 
-# Basic JavaScript: Comparisons with the Logical Or Operator
+# 68. Basic JavaScript: Comparisons with the Logical Or Operator
 The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
 The logical or operator is composed of two pipe symbols: (||). This can typically be found between your Backspace and Enter keys.
 The pattern below should look familiar from prior waypoints:
@@ -1254,7 +1254,7 @@ function testLogicalOr(val) {
 
 testLogicalOr(15);
 
-# Basic JavaScript: Introducing Else Statements
+# 69. Basic JavaScript: Introducing Else Statements
 When a condition for an if statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an else statement, an alternate block of code can be executed.
 if (num > 10) {
   return "Bigger than 10";
@@ -1281,7 +1281,7 @@ function testElse(val) {
 
 testElse(4);
 
-# Basic JavaScript: Introducing Else If Statements
+# 70. Basic JavaScript: Introducing Else If Statements
 If you have multiple conditions that need to be addressed, you can chain if statements together with else if statements.
 if (num > 15) {
   return "Bigger than 15";
@@ -1308,7 +1308,7 @@ function testElseIf(val) {
 
 testElseIf(7);
 
-# Basic JavaScript: Logical Order in If Else Statements
+# 71. Basic JavaScript: Logical Order in If Else Statements
 Order is important in if, else if statements.
 The function is executed from top to bottom so you will want to be careful of what statement comes first.
 Take these two functions as an example.
@@ -1351,7 +1351,7 @@ function orderMyLogic(val) {
 orderMyLogic(7);
 
 
-# Basic JavaScript: Chaining If Else Statements
+# 72. Basic JavaScript: Chaining If Else Statements
 if/else statements can be chained together for complex logic. Here is pseudocode of multiple chained if / else if statements:
 if (condition1) {
   statement1
