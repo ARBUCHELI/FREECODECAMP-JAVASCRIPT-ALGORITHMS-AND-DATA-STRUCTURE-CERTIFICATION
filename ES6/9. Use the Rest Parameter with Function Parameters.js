@@ -16,3 +16,7 @@ Modify the function sum using the rest parameter in such a way that the function
 
 Solution:
 
+const sum = (...args) => {
+  return args.reduce((a, b) => a + b, 0);
+}
+
