@@ -21,8 +21,8 @@ It should be noted that the class keyword declares a new function, to which a co
 
 Note: UpperCamelCase should be used by convention for ES6 class names, as in SpaceShuttle used above.
 
-The constructor method is a special method for creating and initializing an object created with a class. You will learn more about it in the Object Oriented Programming section 
-of the JavaScript Algorithms And Data Structures Certification.
+The constructor method is a special method for creating and initializing an object created with a class. You will learn more about it in the Object Oriented Programming
+section of the JavaScript Algorithms And Data Structures Certification.
 
 Use the class keyword and write a constructor to create the Vegetable class.
 
